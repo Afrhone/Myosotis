@@ -447,3 +447,26 @@ Made with Love for E.💕 and  S.🪽
 
 
 
+
+## Myosotis Experience Intelligence
+
+Myosotis now includes a lightweight UI/UX, BI, and machine-intelligence bridge for turning product intent into model-ready story structure. The bridge uses three linked motifs:
+
+- **Mythos** frames myths and user goals as humane narrative intent.
+- **Mitosis** splits an idea into measurable UI or generation variants.
+- **Osmosis** absorbs BI signals into transparent model controls, such as temperature, resonance strength, and repetition penalty.
+
+```python
+from myosotis import synthesize_mythos
+
+blueprint = synthesize_mythos(
+    "myths for mitosis and osmosis",
+    {"engagement": 1.4, "risk": -0.3},
+    branch_count=2,
+)
+
+print(blueprint.prompt_prelude())
+print(blueprint.model_controls)
+```
+
+Use the resulting `prompt_prelude()` before Lila-E8 generation to keep UI copy, BI observations, and machine-intelligence controls aligned.
